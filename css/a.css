@@ -1,0 +1,151 @@
+.intro-lead-in
+{
+  width: 90%;
+  padding-top: 250px;
+  padding-bottom: 10px;
+}
+.logo
+{
+  width: 150px;
+}
+h2
+{
+  font-size: 40px;
+}
+.intro-close
+{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 35px;
+  padding-bottom: 290px;
+}
+.black-nav-bg
+{
+  background: rgba(0, 0, 0, 0.9);
+  transition: .5s;
+}
+.nav-transparnt
+{
+  background: rgba(0, 0, 0, 0.0);
+  transition: .5s;
+}
+.nav-link
+{
+  font-size: 15px;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+.round
+{
+  border-radius: 50%;
+  width: 50%;
+}
+.section-heading
+{
+  padding-top: 50px;
+}
+.section-catagory
+{
+  padding: 40px;
+}
+#scroll-home-page
+{
+  background:  url("../img/bg2.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+#scroll-services
+{
+
+}
+#scroll-tojoin
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#scroll-team
+{
+
+}
+#scroll-contact
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#scroll-foot
+{
+  font-size: 12px;
+  padding-top: 16px;
+}
+.img-shadow
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width: 986px) {
+.toggle-dark
+{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.logo
+{
+  width: 150px;
+}
+.intro-lead-in
+{
+  width: 90%;
+  padding-top: 230px;
+  padding-bottom: 10px;
+}
+.intro-close
+{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  padding-bottom: 500px;
+}
+h2
+{
+  font-size: 30px;
+}
+.section-heading
+{
+  padding-top: 50px;
+}
+.fab fa-instagram{
+  size: 5px;
+}
+.social{
+  postion:center;
+}
+
+.container.testing{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 215), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+}
+
+
+
+.panel.date {
+    color: blue;
+    margin: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+.panel.date .month {
+    color: #34495e;
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel.date .day {
+    color: #34495e;
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
